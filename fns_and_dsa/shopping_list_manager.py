@@ -7,7 +7,7 @@ def display_menu():
     print(shopping_list)
 
 def main():
-    shopping_list = []
+    global shopping_list = []
     while True:
         display_menu()
         choice = input("Enter your choice: ")
@@ -46,3 +46,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
