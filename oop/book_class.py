@@ -1,5 +1,5 @@
 class Book:
-    def __init__(self, title, author,):
+    def __init__(self, title, author, year):
         """
         Initializes a Book instance with a title, author, and publication year.
         """
@@ -24,3 +24,4 @@ class Book:
         Returns an official string representation that can recreate the Book instance.
         """
         return f"Book('{self.title}', '{self.author}', {self.year})"
+
